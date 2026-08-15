@@ -5,7 +5,7 @@
 A Computer Organization & Architecture project that implements an optimized ARM execute stage by combining shift and add operations into a single execution path using Verilog HDL.
 
 ## Project Overview
-
+ 
 Traditional ARM execute stages can have a long critical path when a barrel shifter and ripple-carry adder are used sequentially. This project proposes a fused architecture using a logarithmic barrel shifter, smart bypass logic, and a Kogge-Stone parallel-prefix adder.
 
 The proposed design aims to reduce the critical-path depth from approximately **35 gate levels to 11 gate levels**.
